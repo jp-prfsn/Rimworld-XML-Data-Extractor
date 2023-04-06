@@ -1,0 +1,1023 @@
+deathrest casket,;Deathrest
+toy box,;ComplexFurniture
+school desk,;ComplexFurniture
+band node,;BasicMechtech
+toxifier generator,;ToxifierGenerator
+ancient cryptosleep pod
+power conduit,;Electricity
+ship structural beam,;ShipBasics
+ship cryptosleep casket,;ShipCryptosleep
+ship computer core,;ShipComputerCore
+ship reactor,;ShipReactor
+ship engine,;ShipEngine
+sensor cluster,;ShipSensorCluster
+drape,;ComplexFurniture
+brazier,;ComplexFurniture
+ship landing beacon,;Electricity
+harp,;Harp
+therapy couch,;ComplexFurniture
+therapy couch,;ComplexFurniture
+therapy couch,;Therapy
+therapy couch,;Therapy
+therapy couch,;Therapy
+therapy couch,;ComplexFurniture
+therapy couch,;ComplexFurniture
+therapy couch,;Therapy
+therapy couch,;Therapy
+therapy couch,;Therapy
+autopsy table,;BasicAutopsy
+blackboard,;ComplexFurniture
+schooltable,;ComplexFurniture
+blackboard,;ComplexFurniture
+schooltable,;ComplexFurniture
+wool loom,;CarpetMaking
+subsurface conduit,;Electricity
+subsurface conduit (buried),;Electricity
+subsurface conduit,;Electricity
+subsurface conduit,;Electricity
+subsurface conduit,;Electricity
+subsurface conduit,;Electricity
+subsurface conduit,;Electricity
+subsurface conduit,;Electricity
+Weapons Cabinet,;ComplexFurniture
+Weapons Locker,;ComplexFurniture,Machining
+Weapons Cabinet,;ComplexFurniture
+Weapons Locker,;ComplexFurniture,Machining
+Electric Stonecutter's Table,;Electricstonecutting
+table (1x1),;MF_BasicFurniture
+countertop,;ComplexFurniture
+lamp end table,;Electricity
+industrial radio,;TubeTelevision
+longwave radio,;FlatscreenTelevision
+arcade machine,;TubeTelevision
+old computer,;TubeTelevision
+modern computer,;FlatscreenTelevision
+piano,;MF_ModernFurniture
+roulette table,;MF_ModernFurniture
+darts board,;MF_ModernFurniture
+punching bag,;MF_ModernFurniture
+ergonomic bed,;MF_ModernFurniture
+ergonomic double bed,;MF_ModernFurniture
+wardrobe,;MF_ModernFurniture
+ergonomic chair,;MF_ModernFurniture
+modern lamp,;Electricity,MF_ModernFurniture
+royal poster bed,;MF_RoyalFurniture
+royal end table,;MF_RoyalFurniture
+royal dresser,;MF_RoyalFurniture
+royal chair,;MF_RoyalFurniture
+royal armchair,;MF_RoyalFurniture
+table (1x1),;MF_BasicFurniture
+countertop,;ComplexFurniture
+lamp end table,;Electricity
+industrial radio,;TubeTelevision
+longwave radio,;FlatscreenTelevision
+arcade machine,;TubeTelevision
+old computer,;TubeTelevision
+modern computer,;FlatscreenTelevision
+piano,;MF_ModernFurniture
+roulette table,;MF_ModernFurniture
+darts board,;MF_ModernFurniture
+punching bag,;MF_ModernFurniture
+ergonomic bed,;MF_ModernFurniture
+ergonomic double bed,;MF_ModernFurniture
+wardrobe,;MF_ModernFurniture
+ergonomic chair,;MF_ModernFurniture
+modern lamp,;Electricity,MF_ModernFurniture
+royal poster bed,;MF_RoyalFurniture
+royal end table,;MF_RoyalFurniture
+royal dresser,;MF_RoyalFurniture
+royal chair,;MF_RoyalFurniture
+royal armchair,;MF_RoyalFurniture
+air conditioning unit,;AirConditioning
+table (1x1),;MF_BasicFurniture
+countertop,;ComplexFurniture
+lamp end table,;Electricity
+industrial radio,;TubeTelevision
+longwave radio,;FlatscreenTelevision
+arcade machine,;TubeTelevision
+old computer,;TubeTelevision
+modern computer,;FlatscreenTelevision
+piano,;MF_ModernFurniture
+roulette table,;MF_ModernFurniture
+darts board,;MF_ModernFurniture
+punching bag,;MF_ModernFurniture
+ergonomic bed,;MF_ModernFurniture
+ergonomic double bed,;MF_ModernFurniture
+wardrobe,;MF_ModernFurniture
+ergonomic chair,;MF_ModernFurniture
+modern lamp,;Electricity,MF_ModernFurniture
+royal poster bed,;MF_RoyalFurniture
+royal end table,;MF_RoyalFurniture
+royal dresser,;MF_RoyalFurniture
+royal chair,;MF_RoyalFurniture
+royal armchair,;MF_RoyalFurniture
+air conditioning unit,;AirConditioning
+table (1x1),;MF_BasicFurniture
+countertop,;ComplexFurniture
+lamp end table,;Electricity
+industrial radio,;TubeTelevision
+longwave radio,;FlatscreenTelevision
+arcade machine,;TubeTelevision
+old computer,;TubeTelevision
+modern computer,;FlatscreenTelevision
+piano,;MF_ModernFurniture
+roulette table,;MF_ModernFurniture
+darts board,;MF_ModernFurniture
+punching bag,;MF_ModernFurniture
+ergonomic bed,;MF_ModernFurniture
+ergonomic double bed,;MF_ModernFurniture
+wardrobe,;MF_ModernFurniture
+ergonomic chair,;MF_ModernFurniture
+royal poster bed,;MF_RoyalFurniture
+royal end table,;MF_RoyalFurniture
+royal dresser,;MF_RoyalFurniture
+royal chair,;MF_RoyalFurniture
+royal armchair,;MF_RoyalFurniture
+operating table,;ComplexFurniture
+cryptosleep suspender,;Cryptosleep
+vitals centre,;VitalsMonitor
+intravenous drip stand,;HospitalBed
+research counter,;SterileMaterials
+operating table,;ComplexFurniture
+cryptosleep suspender,;Cryptosleep
+vitals centre,;VitalsMonitor
+intravenous drip stand,;HospitalBed
+research counter,;SterileMaterials
+operating table,;ComplexFurniture
+cryptosleep suspender,;Cryptosleep
+vitals centre,;VitalsMonitor
+intravenous drip stand,;HospitalBed
+research counter,;SterileMaterials
+operating table,;ComplexFurniture
+cryptosleep suspender,;Cryptosleep
+vitals centre,;VitalsMonitor
+intravenous drip stand,;HospitalBed
+research counter,;SterileMaterials
+sterile wall,;SterileMaterials
+deployable barrier,;VFES_ConcealedDefenses
+floor turret,;VFES_ConcealedDefenses
+HMG complex,;VFES_TrenchWarfare
+chemfuel barrel,;BiofuelRefining
+land mine,;VFES_PulseChargedDefenses
+decoy,;VFES_TrenchWarfare
+double autocannon,;HeavyTurrets
+artillery,;VFES_Artillery
+barbed wire,;VFES_TrenchWarfare
+trench,;VFES_TrenchWarfare
+ammo crate,;Fabrication
+military turret,;GunTurrets
+bear trap,;ComplexFurniture
+ballista,;VFES_SiegeEquipment
+barrier,;VFES_MetalAlloysBarricades
+charge complex,;VFES_PulseChargedDefenses
+charge turret,;VFES_PulseChargedDefenses
+deployable barrier,;VFES_ConcealedDefenses
+deployable turret,;VFES_ConcealedDefenses
+chemfuel barrel,;BiofuelRefining
+land mine,;VFES_PulseChargedDefenses
+decoy,;VFES_TrenchWarfare
+double autocannon,;HeavyTurrets
+artillery,;VFES_Artillery
+barbed wire,;VFES_TrenchWarfare
+trench,;VFES_TrenchWarfare
+ammo crate,;Fabrication
+military turret,;GunTurrets
+bear trap,;ComplexFurniture
+ballista,;VFES_SiegeEquipment
+barrier,;VFES_MetalAlloysBarricades
+charge complex,;VFES_PulseChargedDefenses
+charge turret,;VFES_PulseChargedDefenses
+deployable barrier,;VFES_ConcealedDefenses
+deployable turret,;VFES_ConcealedDefenses
+chemfuel barrel,;BiofuelRefining
+land mine,;VFES_PulseChargedDefenses
+decoy,;VFES_TrenchWarfare
+double autocannon,;HeavyTurrets
+artillery,;VFES_Artillery
+barbed wire,;VFES_TrenchWarfare
+trench,;VFES_TrenchWarfare
+ammo crate,;Fabrication
+military turret,;GunTurrets
+bear trap,;ComplexFurniture
+ballista,;VFES_SiegeEquipment
+barrier,;VFES_MetalAlloysBarricades
+charge complex,;VFES_PulseChargedDefenses
+charge turret,;VFES_PulseChargedDefenses
+deployable barrier,;VFES_ConcealedDefenses
+deployable turret,;VFES_ConcealedDefenses
+chemfuel barrel,;BiofuelRefining
+land mine,;VFES_PulseChargedDefenses
+decoy,;VFES_TrenchWarfare
+double autocannon,;HeavyTurrets
+artillery,;VFES_Artillery
+barbed wire,;VFES_TrenchWarfare
+trench,;VFES_TrenchWarfare
+platform,;VFES_TrenchWarfare
+ammo crate,;Fabrication
+military turret,;GunTurrets
+bear trap,;ComplexFurniture
+ballista,;VFES_SiegeEquipment
+barrier,;VFES_MetalAlloysBarricades
+charge complex,;VFES_PulseChargedDefenses
+charge turret,;VFES_PulseChargedDefenses
+deployable barrier,;VFES_ConcealedDefenses
+deployable turret,;VFES_ConcealedDefenses
+double autocannon,;HeavyTurrets
+artillery,;VFES_Artillery
+charge complex,;VFES_PulseChargedDefenses
+decoy,;VWE_TrenchWarfare
+barbed wire,;VWE_TrenchWarfare
+trench,;VWE_TrenchWarfare
+platform,;VWE_TrenchWarfare
+ammo crate,;Fabrication
+military turret,;GunTurrets
+bear trap,;ComplexFurniture
+ballista,;VFES_SiegeEquipment
+charge turret,;VFES_PulseChargedDefenses
+drug cabinet,;ComplexFurniture
+machining cabinet,;Machining
+smithing cabinet,;Smithing
+kitchen sink cabinet,;ComplexFurniture
+tailor cabinet,;ComplexFurniture
+fabrication cabinet,;Fabrication
+large machining table,;Machining,VFE_Manufacturing
+large electric smithy,;Smithing,VFE_Manufacturing
+large stove,;VFE_Manufacturing
+large tailoring table,;ComplexClothing,VFE_Manufacturing
+Assembly bench,;Fabrication
+electric butcher,;Electricity
+electric drug lab,;Electricity,DrugProduction
+fueled smelter,;Smithing
+electric stonecutter's table,;Stonecutting,Electricity
+drug cabinet,;ComplexFurniture
+machining cabinet,;Machining
+smithing cabinet,;Smithing
+kitchen sink cabinet,;ComplexFurniture
+tailor cabinet,;ComplexFurniture
+fabrication cabinet,;Fabrication
+large machining table,;Machining,VFE_Manufacturing
+large electric smithy,;Smithing,VFE_Manufacturing
+large stove,;VFE_Manufacturing
+large tailoring table,;ComplexClothing,VFE_Manufacturing
+assembly bench,;Fabrication
+electric butcher,;Electricity
+electric drug lab,;Electricity,DrugProduction
+fueled smelter,;Smithing
+electric stonecutter's table,;Stonecutting,Electricity
+drug cabinet,;ComplexFurniture
+machining cabinet,;Machining
+smithing cabinet,;Smithing
+kitchen sink cabinet,;ComplexFurniture
+tailor cabinet,;ComplexFurniture
+fabrication cabinet,;Fabrication
+large machining table,;Machining,VFE_Manufacturing
+large electric smithy,;Smithing,VFE_Manufacturing
+large stove,;VFE_Manufacturing
+large tailoring table,;ComplexClothing,VFE_Manufacturing
+assembly bench,;Fabrication
+electric butcher,;Electricity
+electric drug lab,;Electricity,DrugProduction
+fueled smelter,;Smithing
+electric stonecutter's table,;Stonecutting,Electricity
+drug cabinet,;ComplexFurniture
+machining cabinet,;Machining
+smithing cabinet,;Smithing
+kitchen sink cabinet,;ComplexFurniture
+tailor cabinet,;ComplexFurniture
+fabrication cabinet,;Fabrication
+large machining table,;Machining,VFE_Manufacturing
+large electric smithy,;Smithing,VFE_Manufacturing
+large stove,;VFE_Manufacturing
+large tailoring table,;ComplexClothing,VFE_Manufacturing
+assembly bench,;Fabrication
+electric butcher,;Electricity
+electric drug lab,;Electricity,DrugProduction
+fueled smelter,;Smithing
+electric stonecutter's table,;Stonecutting,Electricity
+basic prosthetics workbench,;BasicProsthetics
+bionics workbench,;Bionics
+prosthetic workbench,;Prosthetics
+tissue printer,;SurrogateOrgans
+bionics workbench,;Bionics
+prosthetic workbench,;Prosthetics
+tissue printer,;SurrogateOrgans
+prosthetic workbench,;Prosthetics
+bionics workbench,;Bionics
+synthetic nano printer,;SyntheticOrgans
+prosthetic workbench,;Prosthetics
+bionics workbench,;Bionics
+synthetic nano printer,;SyntheticOrgans
+prosthetic workbench,;Prosthetics
+bionics workbench,;Bionics
+synthetic nano printer,;SyntheticOrgans
+scarecrow,;VFE_Res_FarmingTechniques
+animal feeder,;VFE_Res_FarmingTechniques
+sprinkler,;VFE_Res_Sprinkler
+scarecrow,;VFE_Res_FarmingTechniques
+animal feeder,;VFE_Res_FarmingTechniques
+sprinkler,;VFE_Res_Sprinkler
+scarecrow,;VFE_Res_FarmingTechniques
+animal feeder,;VFE_Res_FarmingTechniques
+sprinkler,;VFE_Res_Sprinkler
+scarecrow,;VFE_Res_FarmingTechniques
+sprinkler,;VFE_Res_Sprinkler
+primitive moisture pump,;ComplexFurniture
+
+
+laser sculpting table,;LaserSculpting
+laser sculpting table,;LaserSculpting
+laser sculpting table,;LaserSculpting
+laser sculpting table,;LaserSculpting
+Simple throne,;RA_RoyalApparel
+wine barrel,;Brewing
+wine barrel,;Brewing
+meat smoker,;VFEM_MeatSmoking
+wine barrel,;Brewing
+meat smoker,;VFEM_MeatSmoking
+advanced bed,;SpacerFurniture
+advanced double bed,;SpacerFurniture
+illuminated end table,;SpacerFurniture
+illuminated dresser,;SpacerFurniture
+ultrascreen television,;SpacerElectronics
+biolab sun lamp,;SpacerElectronics
+spacer lamp,;SpacerElectronics
+repair shelf,;MechaniteRestoration
+outdoor solar lamp,;SpacerElectronics
+reinforced wall,;SpacerFurniture
+advanced chair,;SpacerFurniture
+interactive table (1x1),;SpacerFurniture
+interactive table (2x2),;SpacerFurniture
+advanced bed,;SpacerFurniture
+advanced double bed,;SpacerFurniture
+illuminated end table,;SpacerFurniture
+illuminated dresser,;SpacerFurniture
+ultrascreen television,;SpacerElectronics
+biolab sun lamp,;SpacerElectronics
+spacer lamp,;SpacerElectronics
+repair shelf,;MechaniteRestoration
+outdoor solar lamp,;SpacerElectronics
+reinforced wall,;SpacerFurniture
+advanced chair,;SpacerFurniture
+interactive table (1x1),;SpacerFurniture
+interactive table (2x2),;SpacerFurniture
+advanced bed,;SpacerFurniture
+advanced double bed,;SpacerFurniture
+illuminated end table,;SpacerFurniture
+illuminated dresser,;SpacerFurniture
+ultrascreen television,;SpacerElectronics
+spacer lamp,;SpacerElectronics
+repair shelf,;MechaniteRestoration
+outdoor solar lamp,;SpacerElectronics
+advanced chair,;SpacerFurniture
+interactive table (1x1),;SpacerFurniture
+interactive table (2x2),;SpacerFurniture
+Refrigerator,;PackagedSurvivalMeal,Machining
+Ice Box,;NutrientPaste,Machining
+Refrigerated Box Trucks,;Fabrication,Machining
+chemboiler,;ComplexFurniture
+chemlamp,;ComplexFurniture
+chemlamp post,;ComplexFurniture
+chemshine barrel,;BiofuelRefining
+bar stool,;ComplexFurniture
+faro table,;ComplexFurniture
+five finger fillet table,;ComplexFurniture
+windmill,;Electricity
+chemboiler,;ComplexFurniture
+chemlamp,;ComplexFurniture
+chemlamp post,;ComplexFurniture
+chemshine barrel,;BiofuelRefining
+bar stool,;ComplexFurniture
+faro table,;ComplexFurniture
+five finger fillet table,;ComplexFurniture
+windmill,;Electricity
+chemboiler,;ComplexFurniture
+chemlamp,;ComplexFurniture
+chemlamp post,;ComplexFurniture
+chemshine barrel,;BiofuelRefining
+bar stool,;ComplexFurniture
+faro table,;ComplexFurniture
+five finger fillet table,;ComplexFurniture
+windmill,;Electricity
+chemboiler,;ComplexFurniture
+chemlamp,;ComplexFurniture
+chemlamp post,;ComplexFurniture
+chemshine barrel,;BiofuelRefining
+bar stool,;ComplexFurniture
+faro table,;ComplexFurniture
+five finger fillet table,;ComplexFurniture
+windmill,;Electricity
+advanced wind turbine,;VFE_AdvancedPowerSources
+advanced solar generator,;SolarPanels,VFE_AdvancedPowerSources
+advanced watermill generator,;VFE_AdvancedPowerSources,WatermillGenerator
+large battery,;Batteries
+small battery,;Batteries
+advanced battery,;VFE_AdvancedBatteries
+large advanced battery,;VFE_AdvancedBatteries
+portable wood-fired generator,;Electricity
+portable chemfuel powered generator,;Electricity
+industrial wood-fired generator,;VFE_IndustrialGenerators
+industrial chemfuel powered generator,;VFE_IndustrialGenerators
+tidal generator,;VFE_TidalPower
+advanced wind turbine,;VFE_AdvancedPowerSources
+advanced solar generator,;SolarPanels,VFE_AdvancedPowerSources
+advanced watermill generator,;VFE_AdvancedPowerSources,WatermillGenerator
+large battery,;Batteries
+small battery,;Batteries
+advanced battery,;VFE_AdvancedBatteries
+large advanced battery,;VFE_AdvancedBatteries
+chemfuel pump,;BiofuelRefining
+gas pipe,;VFE_GasExtraction
+subterranean gas pipe,;VFE_GasExtraction
+gas pipe valve,;VFE_GasExtraction
+gas tank,;VFE_GasExtraction
+helixien pump,;VFE_GasExtraction
+helixien gas powered generator,;VFE_GasExtraction
+industrial helixien gas powered generator,;VFE_IndustrialGenerators,VFE_GasExtraction
+helixien gas crematorium,;VFE_GasExtraction
+helixien gas smelter,;VFE_GasExtraction
+helixien gas stove,;VFE_GasExtraction
+gas powered excavator,;DeepDrilling,VFE_GasExtraction
+gas cooler,;VFE_GasExtraction
+gas heater,;VFE_GasExtraction
+gas sun lamp,;VFE_GasExtraction
+lightning rod,;VFE_AdvancedPowerSources
+nuclear reactor,;VFE_NuclearPower
+portable wood-fired generator,;Electricity
+portable chemfuel powered generator,;Electricity
+industrial wood-fired generator,;VFE_IndustrialGenerators
+industrial chemfuel powered generator,;VFE_IndustrialGenerators
+advanced wind turbine,;VFE_AdvancedPowerSources
+advanced solar generator,;SolarPanels,VFE_AdvancedPowerSources
+advanced watermill generator,;VFE_AdvancedPowerSources,WatermillGenerator
+advanced geothermal generator,;VFE_AdvancedPowerSources,GeothermalPower
+large battery,;Batteries
+small battery,;Batteries
+advanced battery,;VFE_AdvancedBatteries
+large advanced battery,;VFE_AdvancedBatteries
+chemfuel pump,;BiofuelRefining
+gas pipe,;VFE_GasExtraction
+subterranean gas pipe,;VFE_GasExtraction
+gas pipe valve,;VFE_GasExtraction
+gas tank,;VFE_GasExtraction
+helixien pump,;VFE_GasExtraction
+helixien gas powered generator,;VFE_GasExtraction
+industrial helixien gas powered generator,;VFE_IndustrialGenerators,VFE_GasExtraction
+helixien gas crematorium,;VFE_GasExtraction
+helixien gas smelter,;VFE_GasExtraction
+helixien gas stove,;VFE_GasExtraction
+gas powered excavator,;DeepDrilling,VFE_GasExtraction
+gas cooler,;VFE_GasExtraction
+gas heater,;VFE_GasExtraction
+gas sun lamp,;VFE_GasExtraction
+helixien gas smithy,;Smithing,VFE_GasExtraction
+standing gas lamp,;VFE_GasExtraction
+gas wall light,;VFE_GasExtraction
+gas floodlight,;VFE_GasExtraction
+gas-powered refinery,;BiofuelRefining,VFE_GasExtraction
+helixien gas vent,;VFE_GasExtraction
+gas-operated pod launcher,;TransportPod,VFE_GasExtraction
+lightning rod,;VFE_AdvancedPowerSources
+nuclear reactor,;VFE_NuclearPower
+portable wood-fired generator,;Electricity
+portable chemfuel powered generator,;Electricity
+industrial wood-fired generator,;VFE_IndustrialGenerators
+industrial chemfuel powered generator,;VFE_IndustrialGenerators
+advanced wind turbine,;VFE_AdvancedPowerSources
+advanced solar generator,;SolarPanels,VFE_AdvancedPowerSources
+advanced watermill generator,;VFE_AdvancedPowerSources,WatermillGenerator
+advanced geothermal generator,;VFE_AdvancedPowerSources,GeothermalPower
+large battery,;Batteries
+small battery,;Batteries
+advanced battery,;VFE_AdvancedBatteries
+large advanced battery,;VFE_AdvancedBatteries
+chemfuel pump,;BiofuelRefining
+gas pipe,;VFE_GasExtraction
+subterranean gas pipe,;VFE_GasExtraction
+gas pipe valve,;VFE_GasExtraction
+gas tank,;VFE_GasExtraction
+helixien pump,;VFE_GasExtraction
+helixien gas powered generator,;VFE_GasExtraction
+industrial helixien gas powered generator,;VFE_IndustrialGenerators,VFE_GasExtraction
+helixien gas crematorium,;VFE_GasExtraction
+helixien gas smelter,;VFE_GasExtraction
+helixien gas stove,;VFE_GasExtraction
+gas powered excavator,;DeepDrilling,VFE_GasExtraction
+gas cooler,;VFE_GasExtraction
+gas heater,;VFE_GasExtraction
+gas sun lamp,;VFE_GasExtraction
+helixien gas smithy,;Smithing,VFE_GasExtraction
+standing gas lamp,;VFE_GasExtraction
+gas wall light,;VFE_GasExtraction
+gas wall darklight,;VFE_GasExtraction
+gas floodlight,;VFE_GasExtraction
+gas-powered refinery,;BiofuelRefining,VFE_GasExtraction
+helixien gas vent,;VFE_GasExtraction
+gas-operated pod launcher,;TransportPod,VFE_GasExtraction
+lightning rod,;VFE_AdvancedPowerSources
+nuclear reactor,;VFE_NuclearPower
+portable wood-fired generator,;Electricity
+portable chemfuel powered generator,;Electricity
+industrial wood-fired generator,;VFE_IndustrialGenerators
+industrial chemfuel powered generator,;VFE_IndustrialGenerators
+advanced wind turbine,;VFE_AdvancedPowerSources
+advanced solar generator,;SolarPanels,VFE_AdvancedPowerSources
+advanced watermill generator,;VFE_AdvancedPowerSources,WatermillGenerator
+advanced geothermal generator,;VFE_AdvancedPowerSources,GeothermalPower
+large battery,;Batteries
+small battery,;Batteries
+advanced battery,;VFE_AdvancedBatteries
+large advanced battery,;VFE_AdvancedBatteries
+nuclear reactor,;VFE_NuclearPower
+portable wood-fired generator,;Electricity
+portable chemfuel powered generator,;Electricity
+industrial wood-fired generator,;VFE_IndustrialGenerators
+industrial chemfuel powered generator,;VFE_IndustrialGenerators
+backup power control box,;BackupPower
+backup power control box,;BackupPower
+backup power control box,;BackupPower
+backup power control box,;BackupPower
+electric pot,;VCE_SoupCooking
+grill,;VCE_Grilling
+deep fryer,;VCE_DeepFrying
+canning machine,;VCE_Canning,Electricity
+condiment prep table,;VCE_CondimentsResearch
+cheese press,;VCE_CheeseMaking
+electric pot,;VCE_SoupCooking
+grill,;VCE_Grilling
+deep fryer,;VCE_DeepFrying
+canning machine,;VCE_Canning,Electricity
+condiment prep table,;VCE_CondimentsResearch
+cheese press,;VCE_CheeseMaking
+electric pot,;VCE_SoupCooking
+grill,;VCE_Grilling
+deep fryer,;VCE_DeepFrying
+canning machine,;VCE_Canning,Electricity
+condiment prep table,;VCE_CondimentsResearch
+cheese press,;VCE_CheeseMaking
+stew pot,;VCE_StewCooking
+stew pot,;VCE_StewCooking
+stew pot,;VCE_StewCooking
+stew pot,;VCE_StewCooking
+large brazier,;ComplexFurniture
+bar,;VBE_MixologyResearch
+soda fountain,;VBE_MixologyResearch
+ambrandy distillery,;VBE_MixologyResearch
+whiskey cask,;VBE_LiquorBrewing
+tequila barrel,;VBE_LiquorBrewing
+vodka drum,;VBE_LiquorBrewing
+gin still,;VBE_LiquorBrewing
+bar,;VBE_MixologyResearch
+soda fountain,;VBE_MixologyResearch
+ambrandy distillery,;VBE_MixologyResearch
+whiskey cask,;VBE_LiquorBrewing
+tequila barrel,;VBE_LiquorBrewing
+vodka drum,;VBE_LiquorBrewing
+gin still,;VBE_LiquorBrewing
+bar,;VBE_MixologyResearch
+soda fountain,;VBE_MixologyResearch
+ambrandy distillery,;VBE_MixologyResearch
+whiskey cask,;VBE_LiquorBrewing
+tequila barrel,;VBE_LiquorBrewing
+vodka drum,;VBE_LiquorBrewing
+gin still,;VBE_LiquorBrewing
+writers table,;VBE_Writing
+typewriter table,;VBE_Printing
+writers table,;VBE_Writing
+typewriter table,;VBE_Printing
+writers table,;VBE_Writing
+typewriter table,;VBE_Printing
+hnefatafl table,;ComplexFurniture
+training dummy,;Smithing
+mead fermenting barrel,;Brewing
+apiary,;VFEV_Beekeeping
+rune stone,;Stonecutting
+hearth,;ComplexFurniture
+hnefatafl table,;ComplexFurniture
+training dummy,;Smithing
+mead fermenting barrel,;Brewing
+apiary,;VFEV_Beekeeping
+rune stone,;Stonecutting
+hearth,;ComplexFurniture
+hnefatafl table,;ComplexFurniture
+training dummy,;Smithing
+mead fermenting barrel,;Brewing
+apiary,;VFEV_Beekeeping
+rune stone,;Stonecutting
+hearth,;ComplexFurniture
+Model 1881 Gatling Gun,;RWP_GatlingGun
+Model 1881 Gatling Gun,;RWP_GatlingGun
+Model 1881 Gatling Gun,;RWP_GatlingGun
+12-pounder Napoleon cannon,;RWP_Artillery
+12-pounder Napoleon cannon,;RWP_Artillery
+12-pounder Napoleon cannon,;RWP_Artillery
+alloy smelter,;Smithing
+electric alloy smelter,;Smithing,Electricity
+advanced alloy smelter,;Electricity,Smithing
+oil extractor,;VMEu_PlasticManufacture
+alloy smelter,;Smithing
+electric alloy smelter,;Smithing,Electricity
+advanced alloy smelter,;Electricity,Smithing
+oil extractor,;VMEu_PlasticManufacture
+advanced moisture pump,;AMP_AdvancedMoisturePumping
+espresso machine,;VBE_EspressoMachine
+espresso machine,;VBE_EspressoMachine
+espresso machine,;VBE_EspressoMachine
+mushroom fermenting barrel,;Brewing,ItW_ResearchFungiponics
+fungiponics basin,;ItW_ResearchFungiponics
+mushroom fermenting barrel,;Brewing,BMT_ResearchMushrooms
+fungiponics basin,;BMT_ResearchMushrooms
+plastic sculpture,;VMEu_PlasticManufacture
+simple plastic weaver,;VMEu_PlasticManufacture
+synthweaver,;VMEu_PolymerMaterials
+dark oil distiller,;VMEu_AdvancedChemistry
+oil extractor,;VMEu_PlasticManufacture
+plastic sculpture,;VMEu_PlasticManufacture
+simple plastic weaver,;VMEu_PlasticManufacture
+synthweaver,;VMEu_PolymerMaterials
+dark oil distiller,;VMEu_AdvancedChemistry
+oil extractor,;VMEu_PlasticManufacture
+advanced soup pot,;VCE_SoupCooking,MicroelectronicsBasics
+polymer hydroponics basin,;MP_MinimalistProduction,Hydroponics
+small butcher table,;MP_MinimalistProduction
+small stoneworker table,;MP_MinimalistProduction
+small stove,;MP_MinimalistProduction
+small tailoring bench,;MP_MinimalistProduction
+small electric smithy,;MP_MinimalistProduction
+small multi-purpose fabrication bench,;MP_MinimalistProduction
+small brewery,;MP_MinimalistProduction
+small drug lab,;MP_MinimalistProduction
+Reinforced Wall,;ReinforcedWalls
+Reinforced Embrasure,;ReinforcedEmbrasures
+dark illuminated end table,;SpacerFurniture
+dark illuminated dresser,;SpacerFurniture
+spacer darklamp,;SpacerElectronics
+outdoor solar darklamp,;SpacerElectronics
+darklight hearth,;ComplexFurniture
+darklight hearth,;ComplexFurniture
+mounted gloomlight
+chandelier,;ComplexFurniture
+Researching Spot
+gem cutting bench,;RF_MedievalGemCutting
+gem cutting bench,;RF_MedievalGemCutting
+arcane crafting bench,;RF_ArcaneCrafting
+arcane crafting bench,;RF_ArcaneCrafting
+cold crystal bowl,;RF_MagicalTemperatureRegulation,Insert custom research when available
+hot crystal bowl,;RF_MagicalTemperatureRegulation,Insert custom research when available
+frost pylon,;RF_MagicalTemperatureRegulation,Insert custom research when available
+flame pylon,;RF_MagicalTemperatureRegulation,Insert custom research when available
+cold crystal bowl,;RF_MagicalTemperatureRegulation,Insert custom research when available
+hot crystal bowl,;RF_MagicalTemperatureRegulation,Insert custom research when available
+frost pylon,;RF_MagicalTemperatureRegulation,Insert custom research when available
+flame pylon,;RF_MagicalTemperatureRegulation,Insert custom research when available
+glowstone lamp,;RF_MagicalLighting
+glowstone pedestal,;RF_MagicalLighting
+glowstone wall lamp,;RF_MagicalLighting
+sunstone pedestal,;RF_MagicalLighting
+sunstone wall lamp,;RF_MagicalLighting
+glowstone lamp,;RF_MagicalLighting
+glowstone pedestal,;RF_MagicalLighting
+glowstone wall lamp,;RF_MagicalLighting
+sunstone pedestal,;RF_MagicalLighting
+sunstone wall lamp,;RF_MagicalLighting
+darkstone lamp,;RF_MagicalLighting
+darkstone pedestal,;RF_MagicalLighting
+darkstone wall lamp,;RF_MagicalLighting
+fermenting barrel,;Brewing
+fermenting barrel,;Brewing
+shintao slab (medium),;Stonecutting
+shintao slab (broad),;Stonecutting
+esotericism slab (medium),;Stonecutting
+esotericism slab (broad),;Stonecutting
+eldritch slab (medium),;Stonecutting
+eldritch slab (broad),;Stonecutting
+shintao slab (medium),;Stonecutting
+shintao slab (broad),;Stonecutting
+esotericism slab (medium),;Stonecutting
+esotericism slab (broad),;Stonecutting
+eldritch slab (medium),;Stonecutting
+eldritch slab (broad),;Stonecutting
+printing press,;VBE_Printing
+electric printing press,;VBE_Printing,Electricity
+bookshelf,;ComplexFurniture
+guardian pylon,;RF_ArcaneDefences
+sentinel pylon,;RF_ArcaneDefences
+guardian pylon,;RF_ArcaneDefences
+sentinel pylon,;RF_ArcaneDefences
+stone-framed bedroll,;ComplexFurniture
+restored ancient bed,;ComplexFurniture
+restored ancient double bed,;ComplexFurniture
+restored ancient operating table,;HospitalBed
+grog dispenser,;NutrientPaste
+jewish slab (medium),;Stonecutting
+jewish slab (broad),;Stonecutting
+kemetic slab (medium),;Stonecutting
+kemetic slab (broad),;Stonecutting
+hindu slab (medium),;Stonecutting
+hindu slab (broad),;Stonecutting
+steampunk slab (medium),;Stonecutting
+steampunk slab (broad),;Stonecutting
+corsair slab (medium),;Stonecutting
+corsair slab (broad),;Stonecutting
+jain slab (medium),;Stonecutting
+jain slab (broad),;Stonecutting
+sikh slab (medium),;Stonecutting
+sikh slab (broad),;Stonecutting
+islamic slab (medium),;Stonecutting
+islamic slab (broad),;Stonecutting
+christian slab (medium),;Stonecutting
+christian slab (broad),;Stonecutting
+buddhist slab (medium),;Stonecutting
+buddhist slab (broad),;Stonecutting
+stone-framed bedroll,;ComplexFurniture
+restored ancient bed,;ComplexFurniture
+restored ancient double bed,;ComplexFurniture
+restored ancient operating table,;HospitalBed
+grog dispenser,;NutrientPaste
+jewish slab (medium),;Stonecutting
+jewish slab (broad),;Stonecutting
+kemetic slab (medium),;Stonecutting
+kemetic slab (broad),;Stonecutting
+hindu slab (medium),;Stonecutting
+hindu slab (broad),;Stonecutting
+steampunk slab (medium),;Stonecutting
+steampunk slab (broad),;Stonecutting
+corsair slab (medium),;Stonecutting
+corsair slab (broad),;Stonecutting
+jain slab (medium),;Stonecutting
+jain slab (broad),;Stonecutting
+sikh slab (medium),;Stonecutting
+sikh slab (broad),;Stonecutting
+islamic slab (medium),;Stonecutting
+islamic slab (broad),;Stonecutting
+christian slab (medium),;Stonecutting
+christian slab (broad),;Stonecutting
+buddhist slab (medium),;Stonecutting
+buddhist slab (broad),;Stonecutting
+digitizer fabricator,;Fabrication
+PawnStorage™ platform,;Fabrication
+vegetable milk extractor,;VCE_VegMilkExtraction
+vegetable milk extractor,;VCE_VegMilkExtraction
+helixien gas boiler,;CentralHeating,VFE_GasExtraction
+helixien gas boiler,;CentralHeating,VFE_GasExtraction
+helixien gas boiler,;CentralHeating,VHGE_GasExtraction
+helixien gas boiler,;CentralHeating,VHGE_GasExtraction
+tent,;VFEC_LegionaryArmaments
+thermaebath,;VFEC_Thermaebath
+theatre stage,;VFEC_DramaAndComedy
+beacon,;VFEC_Beacons
+meat drying rack,;VFEC_MeatDrying
+crafting bench,;VFEC_CraftingBench
+wood-fired crematorium,;VFEC_WoodfiredCrematorium
+cement press,;VFEC_CementMaking
+tyrian farm,;VFEC_TyrianProduction
+scorpion turret,;VFEC_Scorpion
+large passive cooler,;VFEC_TemperatureControl
+heat stones,;VFEC_TemperatureControl
+tent,;VFEC_LegionaryArmaments
+thermaebath,;VFEC_Thermaebath
+theatre stage,;VFEC_DramaAndComedy
+beacon,;VFEC_Beacons
+meat drying rack,;VFEC_MeatDrying
+crafting bench,;VFEC_CraftingBench
+wood-fired crematorium,;VFEC_WoodfiredCrematorium
+cement press,;VFEC_CementMaking
+tyrian farm,;VFEC_TyrianProduction
+scorpion turret,;VFEC_Scorpion
+large passive cooler,;VFEC_TemperatureControl
+heat stones,;VFEC_TemperatureControl
+double tent,;VFEC_LegionaryArmaments
+chemfuel pipe,;BiofuelRefining
+subterranean chemfuel pipe,;BiofuelRefining
+chemfuel valve,;BiofuelRefining
+chemfuel tank,;BiofuelRefining
+chemfuel tap,;BiofuelRefining
+chemfuel drain,;BiofuelRefining
+deepchem pipe,;BiofuelRefining
+subterranean deepchem pipe,;BiofuelRefining
+deepchem valve,;BiofuelRefining
+deepchem tank,;BiofuelRefining
+deepchem refinery,;BiofuelRefining
+deepchem pumpjack,;BiofuelRefining
+deepchem tap,;BiofuelRefining
+deepchem drain,;BiofuelRefining
+chemfuel pipe,;BiofuelRefining
+subterranean chemfuel pipe,;BiofuelRefining
+chemfuel valve,;BiofuelRefining
+chemfuel tank,;BiofuelRefining
+chemfuel tap,;BiofuelRefining
+chemfuel drain,;BiofuelRefining
+deepchem pipe,;BiofuelRefining
+subterranean deepchem pipe,;BiofuelRefining
+deepchem valve,;BiofuelRefining
+deepchem tank,;BiofuelRefining
+deepchem refinery,;BiofuelRefining
+deepchem pumpjack,;BiofuelRefining
+deepchem tap,;BiofuelRefining
+deepchem drain,;BiofuelRefining
+
+
+
+biomechanical lab beacon,;GR_GeneticMechahybridization
+mechahybrid antenna,;GR_GeneticMechahybridization
+genomorpher,;GR_GeneticEngineering
+electrowomb,;GR_GeneticEngineering
+large electrowomb,;GR_GeneticEngineering
+tissue grinder,;GR_GeneticAlteration
+genetics tinkering table,;GR_GeneticEngineering
+genome extractor table,;GR_GeneticAlteration
+genome recombinator,;GR_GeneticDuplication
+nutrient vat,;GR_GeneticAlteration
+implant augmentator,;GR_HybridImplantology
+
+
+
+biomechanical lab beacon,;GR_GeneticMechahybridization
+mechahybrid antenna,;GR_GeneticMechahybridization
+genomorpher,;GR_GeneticEngineering
+electrowomb,;GR_GeneticEngineering
+large electrowomb,;GR_GeneticEngineering
+tissue grinder,;GR_GeneticAlteration
+genetics tinkering table,;GR_GeneticEngineering
+genome extractor table,;GR_GeneticAlteration
+genome recombinator,;GR_GeneticDuplication
+nutrient vat,;GR_GeneticAlteration
+implant augmentator,;GR_HybridImplantology
+compressed sludge platform,;ScarlettRefining
+compressed scarlet sludge pipe,;ScarlettRefining
+scarlet mechanites platform,;ScarlettRefining
+scarlet mechanites pipe,;ScarlettRefining
+luciferium synthesizer,;LuciSynthMachineRes
+synthesizer precision booster,;LuciSynthMachineRes
+scarlet pipe,;BasicMechanitesUnderstanding
+scarlet tank,;BasicMechanitesUnderstanding
+scarlet collector,;BasicMechanitesUnderstanding
+advanced scarlet collector,;ReinforcedCoresRes
+compressed sludge platform,;ScarlettRefining
+compressed scarlet sludge pipe,;ScarlettRefining
+scarlet mechanites platform,;ScarlettRefining
+scarlet mechanites pipe,;ScarlettRefining
+luciferium synthesizer,;LuciSynthMachineRes
+synthesizer precision booster,;LuciSynthMachineRes
+scarlet pipe,;BasicMechanitesUnderstanding
+scarlet tank,;BasicMechanitesUnderstanding
+scarlet collector,;BasicMechanitesUnderstanding
+advanced scarlet collector,;ReinforcedCoresRes
+darkstone lamp,;RF_ArcaneLighting
+darkstone pedestal,;RF_ArcaneLighting
+darkstone wall lamp,;RF_ArcaneLighting
+glowstone lamp,;RF_ArcaneLighting
+glowstone pedestal,;RF_ArcaneLighting
+glowstone wall lamp,;RF_ArcaneLighting
+sunstone pedestal,;RF_ArcaneLighting
+sunstone wall lamp,;RF_ArcaneLighting
+arcane crafting bench,;RF_ArcaneCrafting
+bombard pylon,;RF_ArcaneDefences
+lance pylon,;RF_ArcaneDefences
+spray pylon,;RF_ArcaneDefences
+cold crystal bowl,;RF_ArcaneTemperatureRegulation,Insert custom research when available
+hot crystal bowl,;RF_ArcaneTemperatureRegulation,Insert custom research when available
+frost pylon,;RF_ArcaneTemperatureRegulation,Insert custom research when available
+flame pylon,;RF_ArcaneTemperatureRegulation,Insert custom research when available
+darkstone lamp,;RF_ArcaneLighting
+darkstone pedestal,;RF_ArcaneLighting
+darkstone wall lamp,;RF_ArcaneLighting
+glowstone lamp,;RF_ArcaneLighting
+glowstone pedestal,;RF_ArcaneLighting
+glowstone wall lamp,;RF_ArcaneLighting
+sunstone pedestal,;RF_ArcaneLighting
+sunstone wall lamp,;RF_ArcaneLighting
+arcane crafting bench,;RF_ArcaneCrafting
+bombard pylon,;RF_ArcaneDefences
+lance pylon,;RF_ArcaneDefences
+spray pylon,;RF_ArcaneDefences
+cold crystal bowl,;RF_ArcaneTemperatureRegulation,Insert custom research when available
+hot crystal bowl,;RF_ArcaneTemperatureRegulation,Insert custom research when available
+frost pylon,;RF_ArcaneTemperatureRegulation,Insert custom research when available
+flame pylon,;RF_ArcaneTemperatureRegulation,Insert custom research when available
+notice board,;ComplexFurniture
+diagonal paved tile,;Stonecutting
+grave with cross,;ComplexFurniture
+chemfuel cooler,;AirConditioning
+chemfuel heater,;Electricity
+chemfuel crematorium,;Electricity
+Darklight chemfuel brazier,;ComplexFurniture
+Darklight chemfuel sun lamp,;Electricity
+Darklightchemfuel-powered  standing  lamp,;Electricity
+Darklight chemfuel floodlight,;Electricity
+Darklight Chemfuel wall light,;Electricity
+chemfuel brazier,;ComplexFurniture
+chemfuel deep fryer,;VCE_DeepFrying
+grill,;VCE_Grilling
+chemfuel pot,;VCE_SoupCooking
+Air fryer ,;VCE_DeepFrying
+infinite deepchem reactor,;MicroelectronicsBasics
+gas-powered turbine,;Electricity,VFE_GasExtraction
+infinite chemfuel pump,;BiofuelRefining,MicroelectronicsBasics
+large chemfuel stove,;VFE_Manufacturing
+large chemfuel-powered smithy,;Smithing,VFE_Manufacturing
+chemfuel cooler,;AirConditioning
+chemfuel heater,;Electricity
+chemfuel crematorium,;Electricity
+Darklight chemfuel brazier,;ComplexFurniture
+Darklight chemfuel sun lamp,;Electricity
+Darklight chemfuel-powered standing lamp,;Electricity
+Darklight chemfuel floodlight,;Electricity
+Darklight Chemfuel wall light,;Electricity
+chemfuel brazier,;ComplexFurniture
+chemfuel deep fryer,;VCE_DeepFrying
+grill,;VCE_Grilling
+chemfuel pot,;VCE_SoupCooking
+Air fryer ,;VCE_DeepFrying
+infinite deepchem reactor,;MicroelectronicsBasics
+infinite chemfuel pump,;BiofuelRefining,MicroelectronicsBasics
+infinite chemfuel pump,;BiofuelRefining,MicroelectronicsBasics
+large chemfuel stove,;VFE_Manufacturing
+large chemfuel-powered smithy,;Smithing,VFE_Manufacturing
+gas-powered turbine,;Fabrication,VHGE_GasExtraction
+gas sun lamp,;VHGE_GasExtraction
+gas lamp,;VHGE_GasExtraction
+gas wall lamp,;VHGE_GasExtraction
+gas floodlight,;VHGE_GasExtraction
+gas-operated pod launcher,;TransportPod,VHGE_GasExtraction
+gas powered generator,;Electricity,VHGE_GasExtraction
+industrial gas powered generator,;VFE_IndustrialGenerators,VHGE_GasExtraction
+gas-powered crematorium,;VHGE_GasExtraction
+gas-powered smelter,;VHGE_GasExtraction
+gas-powered stove,;VHGE_GasExtraction
+gas-powered smithy,;VHGE_GasExtraction
+gas-powered refinery,;BiofuelRefining,VHGE_GasExtraction
+gas cooler,;VHGE_GasExtraction
+gas heater,;VHGE_GasExtraction
+gas pipe,;VHGE_GasExtraction
+subterranean gas pipe,;VHGE_GasExtraction
+helixien pump,;VHGE_GasExtraction
+gas tank,;VHGE_GasExtraction
+gas valve,;VHGE_GasExtraction
+Large pod launcher,;TransportPod
+Satellite dish,;TransportPod
+deathrest coffin,;ComplexFurniture
+deathrest royal coffin,;ComplexFurniture
+tribal crib
+gene archive,;ResearchGeneArchive
+gene macroprocessor,;ResearchGeneMacroprocessor
+gene register,;ResearchGeneRegister
+gene subprocessor,;ResearchGeneSubprocessor
+sofa,;ComplexFurniture
+cooking table,;MF_BasicFurniture
+meat mincer,;MF_BasicFurniture
+wood-fired heater,;Smithing
+water tank,;Plumbing
+large water tank,;LargeWaterPumps
+cargo container,;FFE_ModernStorages
+nutrient paste pipe,;NutrientPaste
+subterranean nutrient paste pipe,;NutrientPaste
+nutrient paste valve,;NutrientPaste
+nutrient paste grinder,;NutrientPaste
+nutrient paste tap,;NutrientPaste
+nutrient paste feeder,;NutrientPaste
+nutrient paste dripper,;NutrientPaste
+nutrient paste vat,;NutrientPaste
+circuit breaker,;ResearchProject_RTCircuitBreakers
+makeshift fuse,;ResearchProject_RTBasicFuses
+magnetic shield,;ResearchProject_RTMagneticShield
+Glassworks TV,;DecorativeGlassResearch,TubeTelevision
+Glassworks TV,;DecorativeGlassResearch,TubeTelevision
+Glassworks TV,;DecorativeGlassResearch,TubeTelevision
+Glassworks TV,;DecorativeGlassResearch,TubeTelevision
+Swimming Pool,;SwimmingPools
+Hot Tub,;HotTubs
+Washing Machine,;WashingMachines
+Irrigation Sprinkler,;Irrigation
+Fire Sprinkler,;FireSuppression
+Biosolids Composter,;SewageSludgeComposting
+Biosolid Fertilizer,;SewageSludgeComposting
+Swimming Pool,;SwimmingPools
+Hot Tub,;HotTubs
+Washing Machine,;WashingMachines
+Irrigation Sprinkler,;Irrigation
+Fire Sprinkler,;FireSuppression
+Biosolids Composter,;SewageSludgeComposting
+swimming pool,;SwimmingPools
+hot tub,;HotTubs
+washing machine,;WashingMachines
+irrigation sprinkler,;Irrigation
+fire sprinkler,;FireSuppression
+biosolids composter,;SewageSludgeComposting
+swimming pool,;SwimmingPools
+hot tub,;HotTubs
+washing machine,;WashingMachines
+Fueled Sauna Heater,;Saunas
+Electric Sauna Heater,;Saunas,Electricity
+Sauna seating,;Saunas
+irrigation sprinkler,;Irrigation
+fire sprinkler,;FireSuppression
+biosolids composter,;SewageSludgeComposting
+swimming pool,;SwimmingPools
+hot tub,;HotTubs
+washing machine,;WashingMachines
+Fueled Sauna Heater,;Saunas
+Electric Sauna Heater,;Saunas,Electricity
+Sauna seating,;Saunas
+irrigation sprinkler,;Irrigation
+fire sprinkler,;FireSuppression
+biosolids composter,;SewageSludgeComposting
