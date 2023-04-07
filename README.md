@@ -11,6 +11,8 @@ Settings for
 
 #### USAGE
 
+Run the .exe, and select menu options with numbers
+
 ##### 1 RUN
 
 Run the main function of the tool. You should supply:
@@ -18,6 +20,7 @@ Run the main function of the tool. You should supply:
 - export path for output
 - tag name: the program will look for instances of the tag, there are often multiple examples in one file. The child tags are defined in the next step.
 - property names: child tags of the above, things like label, cost, description.
+note: properties with children of their own will be included as comma seperated values. Currently this only works up to one level of nesting.
 
 ##### 2 SETTINGS
 
