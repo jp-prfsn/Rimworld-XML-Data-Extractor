@@ -48,8 +48,8 @@ public class Operator
         if (opt == "1") {
             Console.WriteLine("Folder location of defs to read:");
             Console.WriteLine("[ Submit blank to use default of ]");
-            Console.WriteLine(@"[ C:\Program Files (x86)\Steam\steamapps\common\RimWorld ]");
-            filePathToRead = getPath(@"C:\Program Files (x86)\Steam\steamapps\common\RimWorld");
+            Console.WriteLine(@"[ C:\Program Files (x86)\Steam\steamapps\workshop\content\ ]");
+            filePathToRead = getPath(@"C:\Program Files (x86)\Steam\steamapps\workshop\content\");
 
             Console.WriteLine("Enter file output location: ");
             Console.WriteLine("[ Submit blank to use default of Desktop ]");
