@@ -4,10 +4,36 @@ using System.IO;
 using System.Text;
 using System.Collections.Generic;
 using System.Threading; 
+using System.Windows;
+using System.Windows.Forms;
+
+
 public class Operator
 {
-
     public static string[] xmlFiles;
+    private TextBox textBox1;
+
+    public static void Main()
+    {
+        //CREATE TEXT FILE
+ 
+        Console.WriteLine("HI FREN!");
+
+        this.fbdSave = new System.Windows.Forms.FolderBrowserDialog();
+
+        Console.WriteLine("Enter the top level directory containing your defs: ");
+       
+        string filepath = Console.ReadLine(); 
+        
+        Console.WriteLine("Enter file output location: ");
+        string outputLocation = Console.ReadLine(); 
+
+        Console.WriteLine("Cheers. ");
+
+        xmlFiles = Directory.GetFiles(filepath, "*.xml", SearchOption.AllDirectories);
+        pullIt(filepath, outputLocation);
+
+    }
 
     public static void pullIt(string fp, string ol){
         //CREATE TEXT FILE
@@ -112,211 +138,6 @@ public class Operator
 
     }
 
-   
-    public static void Main()
-    {
-        //CREATE TEXT FILE
- 
-        Console.WriteLine("HI FREN!");
-        Console.WriteLine("Enter the top level directory containing your defs: ");
-        string filepath = Console.ReadLine(); 
-
-        Console.WriteLine("Enter file output location: ");
-        string outputLocation = Console.ReadLine(); 
-
-
-        Console.WriteLine("Cheers. ");
-
-        xmlFiles = Directory.GetFiles(filepath, "*.xml", SearchOption.AllDirectories);
-        pullIt(filepath, outputLocation);
-
-        
-
-
-/*
-        using (StreamWriter outputFile = File.CreateText(outputLocation + @"\researchProjDefs.txt"))
-        {
-            
-            Console.WriteLine("Pulling researchProjDefs");
-            Console.WriteLine("XML Files found: " + xmlFiles.Length);
-            Console.WriteLine("....................................");
-            int count = 1;
-            float perc = 0;
-            foreach(string file in xmlFiles){
-
-                perc = ((float)count/xmlFiles.Length) * 100;
-                Console.Write("\r{0}%   ", perc);
-
-                
-                
- 
-                count++; 
-
-                string thisModName = getModName(file); 
-
-                // filter out files that give issues or are not important
-                if(file.Contains("Languages")){
-                    continue;
-                } try {
-                    // OPEN THE FILE
-                    //Console.WriteLine("....................................");
-                    //Console.WriteLine("Processing file: " + file);
-                    XmlDocument xmlDoc= new XmlDocument();              // Create an XML document object ;
-                    xmlDoc.Load(file);                                  // Load the XML document from the specified file ;
-
-
-                    // FOR EACH HEADNODE
-                    XmlNodeList rpDefs = xmlDoc.GetElementsByTagName("ResearchProjectDef"); // get list of ResearchProjectDef
-
-                    if(rpDefs.Count == 0){
-                        //Console.WriteLine( "No ResearchProjectDef found in this file.");
-                    }else{
-                        for(int k=0; k < rpDefs.Count; k++){
-                            XmlNode thisNode = rpDefs[k];
-                            //Console.WriteLine("[ " + thisNode.defName.InnerText + " ]");
-                            string oneLine = "";
-
-                            if (thisNode.HasChildNodes)                                             // if this node has children
-                            {
-
-                                XmlNodeList properties = thisNode.ChildNodes;
-                                //Console.WriteLine(thisNode.Name + " has " + properties.Count + " child nodes!");
-
-                                
-                                string defName = thisNode["defName"].InnerText;
-                                isNull(defName);
-
-                                
-                                string baseCost = thisNode["baseCost"].InnerText;
-                                isNull(baseCost);
-
-                                string techLevel = thisNode["techLevel"].InnerText;
-                                isNull(techLevel);
-
-                                XmlNodeList prerequisites = thisNode["prerequisites"].ChildNodes;
-
-                                
-                                oneLine = oneLine + defName + ";" + baseCost + ";" + techLevel + ";" + thisModName + ";";
-
-                                foreach(XmlNode prq in prerequisites){
-                                    oneLine += prq.InnerText + ",";
-                                }
-
-                                //Console.WriteLine(defName + ";" + baseCost + ";" + techLevel);
-                                    
-                                
-                       
-                            }
-                            
-                            string formatString = oneLine.TrimEnd(';');
-                            formatString = formatString.TrimEnd(',');
-                            outputFile.WriteLine(formatString);
-                             
-
-                            //Console.WriteLine("---- " + oneLine.TrimEnd(';'));
-                        } 
-                    } 
-                } catch (Exception ex){
-                    continue;
-                }
-
-                
-            }
-
-            outputFile.Close();
-            Console.WriteLine("....................................");
-        }
-
-
-
-
-
-
-        // step 2 - export ThingDefs
-
-        using (StreamWriter outputFile = File.CreateText(outputLocation + @"\thingDefs.txt"))
-        {
-            Console.WriteLine("Pulling THINGDEFS");
-            Console.WriteLine("XML Files found: " + xmlFiles.Length);
-            Console.WriteLine("....................................");
-
-            int count = 1;
-            float perc = 0;
-            foreach(string file in xmlFiles){
-
-                perc = ((float)count/xmlFiles.Length) * 100;
-                Console.Write("\r{0}%   ", perc);
-                count++;
-                string thisModName = getModName(file); 
-
-
-                // filter out files that give issues or are not important
-                if(file.Contains("Languages")){
-                    continue;
-                } try {
-                    // OPEN THE FILE
-                    //Console.WriteLine("....................................");
-                    //Console.WriteLine("Processing file: " + file);
-                    XmlDocument xmlDoc= new XmlDocument();              // Create an XML document object ;
-                    xmlDoc.Load(file);                                  // Load the XML document from the specified file ;
-
-
-                    // FOR EACH HEADNODE
-                    XmlNodeList thingDefs = xmlDoc.GetElementsByTagName("ThingDef"); // get list of ResearchProjectDef
-
-                    if(thingDefs.Count == 0){
-                        //Console.WriteLine( "No thingDefs found in this file.");
-                    }else{
-                        for(int m=0; m < thingDefs.Count; m++){
-                            XmlNode thisNode = thingDefs[m];
-                            //Console.WriteLine("[ " + thisNode.defName.InnerText + " ]");
-                            string oneLine = "";
-
-                            if (thisNode.HasChildNodes)                                             // if this node has children
-                            {
-
-                                XmlNodeList properties = thisNode.ChildNodes;
-                                //Console.WriteLine(thisNode.Name + " has " + properties.Count + " child nodes!");
-
-                                
-                                string label = thisNode["label"].InnerText;
-                                isNull(label);
-
-                                XmlNodeList prerequisites = thisNode["researchPrerequisites"].ChildNodes;
-
-                                
-                                oneLine = oneLine + label + ";" + thisModName + ";";
-
-                                foreach(XmlNode prq in prerequisites){
-                                    oneLine += prq.InnerText + ",";
-                                }
-
-                                //Console.WriteLine(label);
-                                    
-    
-                            }
-                            
-                            string formatString = oneLine.TrimEnd(';');
-                            formatString = formatString.TrimEnd(',');
-                            outputFile.WriteLine(formatString);
-                             
-
-                            //Console.WriteLine("---- " + oneLine.TrimEnd(';'));
-                        } 
-                    } 
-                } catch (Exception ex){
-                    continue;
-                }  
-            }
-
-            outputFile.Close(); 
-        }
-
-        */
-        
-    
-    }
-
      public static bool isNull(string word){
         if(word != null){
              //Console.WriteLine(word + " found");
@@ -341,19 +162,16 @@ public class Operator
         while (filePath != null)
         {
             directoryName = Path.GetDirectoryName(filePath);
-            //Console.WriteLine("GetDirectoryName('{0}') returns '{1}'",
-                //filePath, directoryName);
             filePath = directoryName;
             if (i == 1)
             {
-                filePath = directoryName + @"\";  // this will preserve the previous path
+                filePath = directoryName + @"\";
             }
             if(directoryName == @"C:\"){
                 break;
             }
             string[] dirs = Directory.GetDirectories(filePath, "About", SearchOption.TopDirectoryOnly);
             if(dirs.Length > 0){
-                //Console.WriteLine("Found 'About' Folder: " + dirs[0]);
                 XmlDocument doc = new XmlDocument();
                 doc.Load(dirs[0] + @"\About.xml");
                 XmlNodeList pkgIDs = doc.GetElementsByTagName("packageId");
