@@ -1,6 +1,6 @@
 ### Data Exporter for Rimworld Mod files
 
-Small console tool to navigate folders and get XML data from all your Rimworld mods and export it as delimited .txt file.
+Small tool to automate the retrieval of XML data from all your Rimworld mods and export as delimited .txt file.
 
 Useful if you have a lot of mods and want to get them into a spreadsheet.
 
@@ -13,7 +13,7 @@ Settings for
 
 Run the .exe, and select menu options with numbers
 
-##### 1 RUN
+##### [1] RUN
 
 Run the main function of the tool. You should supply:
 - folder path for the files: Top level folder containing all your RIMWORLD files. The search will run through all subfolders, so if in doubt, go up to the hightest level.
@@ -22,7 +22,7 @@ Run the main function of the tool. You should supply:
 - property names: child tags of the above, things like label, cost, description.
 note: properties with children of their own will be included as comma seperated values. Currently this only works up to one level of nesting.
 
-##### 2 SETTINGS
+##### [2] SETTINGS
 
 Under settings you can change:
 - the delimiter of the output (default is ;)
