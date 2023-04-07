@@ -3,7 +3,7 @@ using System.Xml;
 using System.IO;
 using System.Text;
 using System.Collections.Generic;
-using System.Threading; 
+using System.Threading;
 
 
 public class Operator
@@ -15,11 +15,12 @@ public class Operator
 
     // delimiter
     public static string delim = ";";
+    public static char delimChar;
 
     public static List<string> exclusions = new List<string>();
 
 
-   
+
     public static void Main()
     {
         //CREATE TEXT FILE
@@ -29,29 +30,26 @@ public class Operator
         Console.WriteLine("----------------------------");
         Console.WriteLine("https://github.com/jp-prfsn/Rimworld-XML-Data-Extractor");
         Console.WriteLine("----------------------------");
-        
 
+        delimChar = delim.ToCharArray()[0];
         getMode();
-
-        
-
     }
 
-    public static void getMode(){
+    public static void getMode() {
 
         Console.WriteLine(" ");
-        Console.WriteLine("type 'new' to run an extraction");
-        Console.WriteLine("type 'settings' to change settings");
-        Console.WriteLine("type 'exit' to close program");
+        Console.WriteLine("[1] run");
+        Console.WriteLine("[2] settings");
+        Console.WriteLine("[3] exit");
 
         Console.WriteLine("----------------------------");
 
         string opt = Console.ReadLine();
-        if(opt == "new"){
+        if (opt == "1") {
             Console.WriteLine("Folder location of defs to read:");
             Console.WriteLine("[ Submit blank to use default of ]");
-            Console.WriteLine("[ C:\Program Files (x86)\Steam\steamapps\common\RimWorld ]");
-            filePathToRead = getPath("C:\Program Files (x86)\Steam\steamapps\common\RimWorld");
+            Console.WriteLine(@"[ C:\Program Files (x86)\Steam\steamapps\common\RimWorld ]");
+            filePathToRead = getPath(@"C:\Program Files (x86)\Steam\steamapps\common\RimWorld");
 
             Console.WriteLine("Enter file output location: ");
             Console.WriteLine("[ Submit blank to use default of Desktop ]");
@@ -59,10 +57,11 @@ public class Operator
 
             Console.WriteLine("Finding files...");
 
-            xmlFiles = Directory.GetFiles(filepath, "*.xml", SearchOption.AllDirectories);
+            xmlFiles = Directory.GetFiles(filePathToRead, "*.xml", SearchOption.AllDirectories);
+            Console.WriteLine(xmlFiles.Length + " XML files found.");
             pullIt();
 
-        }else if(opt == "settings"){
+        } else if (opt == "2") {
             Console.WriteLine(" ");
             Console.WriteLine("[1] change delimiter");
             Console.WriteLine("[2] add exclusions");
@@ -70,27 +69,28 @@ public class Operator
             Console.WriteLine("[4] exit to menu");
             Console.WriteLine("----------------------------");
             string setter = Console.ReadLine();
-            if(setter == "1"){
+            if (setter == "1") {
                 // CHANGE A DELIMITER
                 Console.WriteLine("Preferred delimiter:");
                 delim = Console.ReadLine();
+                delimChar = delim.ToCharArray()[0];
 
-            }else if(setter == "2"){
+            } else if (setter == "2") {
 
                 // ADD AN EXCLUSION TERM
                 Console.WriteLine("Current exclusions:");
-                foreach(string e in exclusions){
+                foreach (string e in exclusions) {
                     Console.WriteLine(e);
                 }
                 Console.WriteLine(" ");
                 Console.WriteLine("New exclusion:");
                 exclusions.Add(Console.ReadLine());
 
-            }else if(setter == "3"){
+            } else if (setter == "3") {
 
                 // ADD AN EXCLUSION TERM
                 Console.WriteLine("Current exclusions:");
-                foreach(string e in exclusions){
+                foreach (string e in exclusions) {
                     Console.WriteLine(e);
                 }
                 Console.WriteLine(" ");
@@ -98,46 +98,45 @@ public class Operator
                 exclusions.Remove(Console.ReadLine());
 
             }
-            
+
 
             getMode();
 
-        }else if(opt == "exit"){
+        } else if (opt == "3") {
             System.Environment.Exit(1);
-        }else{
+        } else {
             Console.WriteLine("No such command.");
 
             getMode();
         }
     }
 
-    public static string getPath(string default){
-        path = Console.ReadLine();
-        if(path == ""){
-            return default;
+    public static string getPath(string dflt = "") {
+        string path = Console.ReadLine();
+        if (path == "") {
+            return dflt;
         }
-        else if(Directory.Exists(path))
+        else if (Directory.Exists(path))
         {
             Console.WriteLine("Path OK.");
             return path;
-        }else{
+        } else {
             Console.WriteLine("Path not found. Try again.");
             return getPath();
         }
     }
 
-    public static void pullIt(){
-        //CREATE TEXT FILE
+    public static void pullIt() {
 
         Console.WriteLine("Which tag are you interested in?");
-        Console.WriteLine("[ e.g. ThingDef, ResearchProjDef ]");
+        Console.WriteLine("[ e.g. ThingDef, ResearchProjectDef ]");
 
         string tagLabel = Console.ReadLine();
 
         Console.WriteLine("Which properties of that tag do you want? (comma separated values, no spaces)");
         Console.WriteLine("[ e.g. label,baseCost,prequisites ]");
 
-        string propLong = Console.ReadLine(); 
+        string propLong = Console.ReadLine();
         string[] props = propLong.Split(',');
 
         using (StreamWriter outputFile = File.CreateText(outputLocation + @"\" + tagLabel + ".txt"))
@@ -148,94 +147,113 @@ public class Operator
             Console.WriteLine("....................................");
             int count = 1;
             float perc = 0;
-            foreach(string file in xmlFiles){
 
-                perc = ((float)count/xmlFiles.Length) * 100;
+            string titleLine = "";
+            foreach (string p in props)
+            {
+                titleLine += p + delimChar;
+            }
+            titleLine += "ModName";
+            //titleLine = titleLine.TrimEnd(delimChar);
+            outputFile.WriteLine(titleLine);
+
+            foreach (string file in xmlFiles)
+            {
+
+                perc = ((float)count / xmlFiles.Length) * 100;
                 Console.Write("\r{0}%   ", perc);
                 count++;
-                string thisModName = getModName(file); 
+                string thisModName = getModName(file);
+
 
                 // filter out files that give issues or are not important
-                foreach(string e in exclusions)
-                    if(file.Contains(e)){
+                foreach (string e in exclusions)
+                {
+                    if (file.Contains(e))
+                    {
                         continue;
                     }
                 }
-                
-                
-                try {
+
+                try
+                {
                     // OPEN THE FILE
-                    XmlDocument xmlDoc= new XmlDocument();
+                    XmlDocument xmlDoc = new XmlDocument();
                     xmlDoc.Load(file);
 
 
                     // FOR EACH HEADNODE
                     XmlNodeList defs = xmlDoc.GetElementsByTagName(tagLabel);
 
-                    if(defs.Count > 0){
-                        for(int k=0; k < defs.Count; k++){
+                    if (defs.Count > 0)
+                    {
+                        for (int k = 0; k < defs.Count; k++)
+                        {
                             XmlNode thisNode = defs[k];
                             string oneLine = "";
 
                             if (thisNode.HasChildNodes) // if this node has children
                             {
                                 // for each property we mentioned
-                                foreach (string p in props){
+                                foreach (string p in props)
+                                {
 
                                     XmlNode property = thisNode[p];
-                                    if(property != null){
-                                        if(!property.HasChildNodes){
-                                            oneLine +=  "0" + delim;
+                                    if (property != null)
+                                    {
+                                        if (!property.HasChildNodes)
+                                        {
+                                            oneLine += "0" + delimChar;
                                         }
                                         else if (property.ChildNodes[0].NodeType != XmlNodeType.Text)
                                         {
-                                        
+
                                             //list them separated by comma
-                                            foreach (XmlNode c in property){
+                                            foreach (XmlNode c in property)
+                                            {
                                                 oneLine += c.InnerText + ",";
                                             }
-                                            oneLine += delim;
-                                            
-                                            
+                                            oneLine += delimChar;
+
+
                                         }
-                                        else{
+                                        else
+                                        {
                                             //else sparate by semicolon
-                                            oneLine += property.InnerText + delim;
+                                            oneLine += property.InnerText + delimChar;
                                         }
-                                    }else{
+                                    }
+                                    else
+                                    {
                                         //Handle unfound tags
-                                        oneLine +=  "0" + delim;
+                                        oneLine += "0" + delimChar;
                                     }
                                 }
                                 oneLine += thisModName;
                             }
-                            
-                            string formatString = oneLine.TrimEnd(delim);
+
+                            string formatString = oneLine.TrimEnd(delimChar);
                             formatString = formatString.TrimEnd(',');
                             outputFile.WriteLine(formatString);
-                        } 
-                    } 
-                } catch (Exception ex){
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
                     Console.WriteLine(ex);
                     continue;
                 }
-
-                
             }
-
+        
             outputFile.Close();
-            Console.WriteLine("....................................");
+            Console.WriteLine(" ");
         }
 
+        Console.WriteLine("....................................");
+        Console.WriteLine("COMPLETED");
+        Console.WriteLine("....................................");
 
-        Console.WriteLine("Another one? (Y/N)");
-        string contin = Console.ReadLine();
-        if(contin == (string)"Y" || contin == (string)"y"){
-            getMode();
-        }else{
-            Console.WriteLine("OK BYE. Press RETURN key to exit.");
-            Console.ReadLine(); 
-        }
+        getMode();
 
     }
 
