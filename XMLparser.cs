@@ -239,6 +239,7 @@ public class Operator
                 }
                 catch (Exception ex)
                 {
+                    Console.WriteLine(file);
                     Console.WriteLine(ex);
                     continue;
                 }
