@@ -56,6 +56,7 @@ public class Operator
             string desktop = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
             outputLocation = getPath(desktop);
 
+
             Console.WriteLine("Finding files...");
 
             xmlFiles = Directory.GetFiles(filePathToRead, "*.xml", SearchOption.AllDirectories);
