@@ -53,7 +53,8 @@ public class Operator
 
             Console.WriteLine("Enter file output location: ");
             Console.WriteLine("[ Submit blank to use default of Desktop ]");
-            outputLocation = getPath("Environment.GetFolderPath(Environment.SpecialFolder.Desktop)");
+            string desktop = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+            outputLocation = getPath(desktop);
 
             Console.WriteLine("Finding files...");
 
