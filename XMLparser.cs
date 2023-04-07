@@ -143,7 +143,6 @@ public class Operator
         {
             xmlFiles = Directory.GetFiles(filePathToRead, "*.xml", SearchOption.AllDirectories);
             Console.WriteLine("Pulling " + tagLabel + "s");
-            Console.WriteLine("XML Files found: " + xmlFiles.Length);
             Console.WriteLine("....................................");
             int count = 1;
             float perc = 0;
@@ -153,7 +152,7 @@ public class Operator
             {
                 titleLine += p + delimChar;
             }
-            titleLine += "ModName";
+            titleLine += "Mod Name (packageId)";
             //titleLine = titleLine.TrimEnd(delimChar);
             outputFile.WriteLine(titleLine);
 
